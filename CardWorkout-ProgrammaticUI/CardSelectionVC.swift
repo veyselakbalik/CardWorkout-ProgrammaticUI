@@ -48,7 +48,7 @@ class CardSelectionVC: UIViewController {
             stopButton.widthAnchor.constraint(equalToConstant: 260),
             stopButton.heightAnchor.constraint(equalToConstant: 50),
             stopButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            stopButton.topAnchor.constraint(equalTo: cardImageView.bottomAnchor, constant: 30)
+            stopButton.topAnchor.constraint(equalTo: cardImageView.bottomAnchor, constant: 25)
         ])
         
     }
